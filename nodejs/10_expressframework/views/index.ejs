@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= webDE.title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include templates/header.ejs %>
+    <% include templates/menu.ejs %>
+
+    <h1><%= webDE.title %></h1>
+    <p><a href="<%= webGeneral.companyURL %>" target="_blank"><%= webGeneral.company %></a></p>
+
+    <% include templates/footer.ejs %>
+  </body>
+</html>

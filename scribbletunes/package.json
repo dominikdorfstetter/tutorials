@@ -1,0 +1,14 @@
+{
+  "name": "scribbletunes",
+  "version": "1.0.0",
+  "description": "just playing with scribbletune",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Dorfstetter",
+  "license": "MIT",
+  "dependencies": {
+    "scribbletune": "^2.0.0"
+  }
+}

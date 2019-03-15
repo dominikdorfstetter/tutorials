@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= webDE.title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include templates/header.ejs %>
+    <% include templates/menu.ejs %>
+
+    <h1><%= webDE.title %></h1>
+    <p>IPFS File-Uploader <%= webGeneral.copyright %></p>
+    <p></p>
+
+    <% include templates/footer.ejs %>
+  </body>
+</html>
