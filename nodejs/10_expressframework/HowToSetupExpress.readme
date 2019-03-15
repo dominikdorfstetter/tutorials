@@ -1,4 +1,0 @@
->> npm install -g express-generator //Installiere Express Generator
->> express -e <Ordner> //Neues Express Projekt (EJS - Enterprise JavaScript)
->> cd <Ordner> 
->> npm install //Alle Abhängigkeiten werden installiert
